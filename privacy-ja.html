@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー - Musubi</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.8; }
+h1 { font-size: 1.5em; border-bottom: 2px solid #6B5CE7; padding-bottom: 8px; }
+h2 { font-size: 1.2em; margin-top: 2em; }
+h3 { font-size: 1em; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.9em; }
+th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+th { background: #f5f5f5; }
+a { color: #6B5CE7; }
+.back { margin-bottom: 20px; }
+.back a { color: #666; text-decoration: none; }
+.updated { color: #666; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<div class="back"><a href="index.html">&larr; Musubi Legal</a></div>
+<h1>プライバシーポリシー</h1>
+<p class="updated">最終更新日：2026年4月7日</p>
+<p>Scope Lab（個人事業主、以下「当方」）は、スマートフォンアプリケーション「Musubi（むすび）」（以下「本サービス」）において、ユーザーの個人情報を適切に取り扱うため、以下のプライバシーポリシーを定めます。</p>
+
+<h2>第1条（収集する情報の種類と目的）</h2>
+<h3>1-1. ユーザーが直接提供する情報</h3>
+<table>
+<tr><th>情報の種類</th><th>収集目的</th></tr>
+<tr><td>メールアドレス</td><td>アカウント認証・サービスに関するお知らせの送信</td></tr>
+<tr><td>名前（漢字・ひらがな）</td><td>姓名判断の算出・AIへのコンテキスト提供</td></tr>
+<tr><td>生年月日</td><td>ライフパスナンバー（数秘術）の算出・AIへのコンテキスト提供</td></tr>
+<tr><td>血液型</td><td>血液型性格分析・相性診断・AIへのコンテキスト提供</td></tr>
+<tr><td>MBTIタイプ</td><td>MBTI分析・相性診断・AIへのコンテキスト提供</td></tr>
+</table>
+
+<h3>1-2. 自動的に収集される情報</h3>
+<table>
+<tr><th>情報の種類</th><th>収集目的</th></tr>
+<tr><td>デバイス情報（OS・端末種別）</td><td>サービスの安定動作・バグ対応</td></tr>
+<tr><td>アプリの利用ログ（機能利用状況）</td><td>サービス改善・不具合調査</td></tr>
+<tr><td>購入・課金情報（App Store / Google Play経由）</td><td>プラン管理・課金状態の確認</td></tr>
+</table>
+<p>※ 決済情報（クレジットカード番号等）は当方では保持しません。Apple Inc. / Google LLCが管理します。</p>
+
+<h2>第2条（Supabaseへのデータ保存）</h2>
+<p>本サービスのバックエンドには<strong>Supabase</strong>（Supabase Inc.、米国）を使用しています。</p>
+<ul>
+<li>ユーザーのアカウント情報・プロフィール情報・AIチャット履歴はSupabaseのデータベースに保存されます。</li>
+<li>SupabaseはPostgreSQLを採用しており、行レベルセキュリティ（Row Level Security）を実装しています。</li>
+<li>データは暗号化された通信（TLS/HTTPS）を通じて送受信されます。</li>
+<li>Supabaseのプライバシーポリシー：<a href="https://supabase.com/privacy">https://supabase.com/privacy</a></li>
+</ul>
+
+<h2>第3条（Anthropic Claude APIへのデータ送信）</h2>
+<p>本サービスのAI機能には<strong>Anthropic Claude API</strong>（Anthropic, PBC、米国）を使用しています。</p>
+<ul>
+<li>AIチャット機能を利用する際、ユーザーのプロフィール情報および入力メッセージが、AIの回答生成のためAnthropicのサーバーに送信されます。</li>
+<li><strong>送信される情報はAIの回答生成のみに使用され、Anthropicによるモデルの学習・トレーニングには使用されません。</strong></li>
+<li>送信データは暗号化された通信（TLS/HTTPS）を通じて行われます。</li>
+<li>AnthropicのPrivacy Policy：<a href="https://www.anthropic.com/privacy">https://www.anthropic.com/privacy</a></li>
+</ul>
+
+<h2>第4条（データの第三者提供・共有）</h2>
+<p>当方は、以下の場合を除き、ユーザーの個人情報を第三者に提供・販売・貸与しません。</p>
+<ol>
+<li>ユーザーの同意がある場合</li>
+<li>法令に基づく場合</li>
+<li>サービス提供に必要な業務委託先への提供</li>
+</ol>
+
+<h3>利用する主な外部サービス</h3>
+<table>
+<tr><th>サービス</th><th>提供会社</th><th>目的</th><th>プライバシーポリシー</th></tr>
+<tr><td>Supabase</td><td>Supabase Inc.（米国）</td><td>データベース・認証</td><td><a href="https://supabase.com/privacy">リンク</a></td></tr>
+<tr><td>Anthropic Claude API</td><td>Anthropic, PBC（米国）</td><td>AI機能</td><td><a href="https://www.anthropic.com/privacy">リンク</a></td></tr>
+<tr><td>Apple App Store / IAP</td><td>Apple Inc.（米国）</td><td>課金処理（iOS）</td><td><a href="https://www.apple.com/legal/privacy/">リンク</a></td></tr>
+<tr><td>Google Play Billing</td><td>Google LLC（米国）</td><td>課金処理（Android）</td><td><a href="https://policies.google.com/privacy">リンク</a></td></tr>
+<tr><td>RevenueCat</td><td>RevenueCat, Inc.（米国）</td><td>サブスク管理</td><td><a href="https://www.revenuecat.com/privacy">リンク</a></td></tr>
+<tr><td>AdMob（Freeプランのみ）</td><td>Google LLC（米国）</td><td>広告配信</td><td><a href="https://policies.google.com/privacy">リンク</a></td></tr>
+</table>
+
+<h2>第5条（データの保存期間・削除方法）</h2>
+<h3>5-1. 保存期間</h3>
+<table>
+<tr><th>データの種類</th><th>保存期間</th></tr>
+<tr><td>アカウント情報・プロフィール</td><td>アカウント有効期間中</td></tr>
+<tr><td>AIチャット履歴</td><td>最大90日間（それ以降は自動削除）</td></tr>
+<tr><td>課金・購入履歴</td><td>法令上の保存義務に従い最大7年間</td></tr>
+<tr><td>アクセスログ</td><td>最大90日間</td></tr>
+</table>
+
+<h3>5-2. データの削除方法</h3>
+<ul>
+<li><strong>アプリ内から削除：</strong>「設定 &gt; アカウント &gt; アカウントを削除」から退会申請を行うことで削除できます。</li>
+<li><strong>削除処理：</strong>退会申請後、原則として30日以内にデータを削除します。</li>
+<li><strong>バックアップデータ：</strong>バックアップシステム上のデータは、定期的なバックアップサイクルに従って削除されます（最大90日）。</li>
+</ul>
+
+<h2>第6条（セキュリティ）</h2>
+<ul>
+<li>TLS/HTTPSによる通信の暗号化</li>
+<li>Supabase Row Level Security（RLS）によるデータアクセス制御</li>
+<li>APIキーのサーバーサイド管理（クライアントへの露出禁止）</li>
+<li>定期的なセキュリティレビュー</li>
+</ul>
+
+<h2>第7条（お子様のプライバシー）</h2>
+<p>本サービスは13歳未満のお子様を対象としていません。13歳未満の方は保護者の同意のもとでご利用ください。</p>
+
+<h2>第8条（Cookie・トラッキングについて）</h2>
+<ul>
+<li>本サービスはモバイルアプリのため、Cookieは使用しません。</li>
+<li><strong>iOS：</strong>広告目的でのトラッキングにはApp Tracking Transparency（ATT）フレームワークに基づきユーザーの同意を取得します。</li>
+<li><strong>Android：</strong>Freeプランではパーソナライズ広告（AdMob）を使用する場合があります。設定から広告IDのリセット・オプトアウトが可能です。</li>
+</ul>
+
+<h2>第9条（ポリシーの変更）</h2>
+<p>当方は、法令の改正・サービスの変更等に伴い、本ポリシーを改定することがあります。重要な変更がある場合は、アプリ内通知またはメールにてお知らせします。</p>
+
+<h2>第10条（お問い合わせ窓口）</h2>
+<ul>
+<li><strong>運営者：</strong>Scope Lab（個人事業主）</li>
+<li><strong>メールアドレス：</strong>musubi.support@gmail.com</li>
+<li><strong>お問い合わせ方法：</strong>アプリ内「設定 &gt; お問い合わせ」またはメールにて受け付けます</li>
+<li><strong>対応言語：</strong>日本語・英語</li>
+<li><strong>回答期限：</strong>お問い合わせ受領後、原則として14営業日以内に回答します</li>
+</ul>
+</body>
+</html>
